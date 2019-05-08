@@ -15,6 +15,9 @@ SPIDER_MODULES = ['olx_crawler.spiders']
 NEWSPIDER_MODULE = 'olx_crawler.spiders'
 
 
+FEED_URI = 'data/%(name)s/%(time)s.json'
+FEED_FORMAT = 'json'
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'olx_crawler (+http://www.yourdomain.com)'
 
