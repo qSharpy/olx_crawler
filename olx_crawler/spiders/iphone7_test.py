@@ -1,7 +1,7 @@
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
-class Iphone7Spider(CrawlSpider):
-    name = "iphone7"
+class Iphone7TestSpider(CrawlSpider):
+    name = "iphone7_test"
     allowed_domains = ['www.olx.ro']
     start_urls = ['https://www.olx.ro/electronice-si-electrocasnice/telefoane-mobile/']
 
